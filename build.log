@@ -1,0 +1,112 @@
+409 INFO: PyInstaller: 6.22.3, contrib hooks: 2026.10
+409 INFO: Python: 3.15.2
+450 INFO: Platform: Windows-11-10.0.26300-SP0
+450 INFO: Python environment: C:\Users\Khyle\AppData\Local\Programs\Python\Python315
+456 INFO: Removing temporary files and cleaning cache in C:\Users\Khyle\AppData\Local\pyinstaller
+1979 INFO: Module search paths (PYTHONPATH):
+['C:\\Users\\Khyle\\Documents\\kirssh',
+ 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\python315.zip',
+ 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\DLLs',
+ 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib',
+ 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315',
+ 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages',
+ 'C:\\Users\\Khyle\\Documents\\kirssh']
+2634 INFO: Appending 'binaries' from .spec
+2640 INFO: Appending 'datas' from .spec
+2679 INFO: checking Analysis
+2679 INFO: Building Analysis because Analysis-00.toc is non existent
+2679 INFO: Looking for Python shared library...
+2679 INFO: Using Python shared library: C:\Users\Khyle\AppData\Local\Programs\Python\Python315\python315.dll
+2679 INFO: Running Analysis Analysis-00.toc
+2679 INFO: Target bytecode optimization level: 0
+2680 INFO: Initializing module dependency graph...
+2682 INFO: Initializing module graph hook caches...
+2724 INFO: Analyzing modules for base_library.zip ...
+5073 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\PyInstaller\\hooks'
+5976 INFO: Processing standard module hook 'hook-math.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\PyInstaller\\hooks'
+8770 INFO: Processing standard module hook 'hook-difflib.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\PyInstaller\\hooks'
+8784 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\PyInstaller\\hooks'
+8975 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\PyInstaller\\hooks'
+10584 INFO: Caching module dependency graph...
+10620 INFO: Analyzing C:\Users\Khyle\Documents\kirssh\kirssh.py
+10922 INFO: Processing standard module hook 'hook-sysconfig.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\PyInstaller\\hooks'
+10933 INFO: Processing standard module hook 'hook-_ctypes.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\PyInstaller\\hooks'
+11022 INFO: Processing pre-find-module-path hook 'hook-tkinter.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+11025 INFO: TclTkInfo: initializing cached Tcl/Tk info...
+11706 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\PyInstaller\\hooks'
+11993 INFO: Processing standard module hook 'hook-cryptography.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+14183 INFO: hook-cryptography: cryptography does not seem to be using dynamically linked OpenSSL.
+15358 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\PyInstaller\\hooks'
+15464 INFO: Processing standard module hook 'hook-xml.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\PyInstaller\\hooks'
+16905 INFO: Processing standard module hook 'hook-bcrypt.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+17160 INFO: Processing standard module hook 'hook-nacl.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+17617 INFO: Processing standard module hook 'hook-platform.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\PyInstaller\\hooks'
+17692 INFO: Processing standard module hook 'hook-tkinterdnd2.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\tkinterdnd2\\__pyinstaller'
+17886 INFO: Analyzing hidden import 'tkinterdnd2.__pyinstaller'
+17888 INFO: Analyzing hidden import 'tkinterdnd2.__pyinstaller.hook-tkinterdnd2'
+18284 INFO: Processing standard module hook 'hook-webbrowser.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\PyInstaller\\hooks'
+18777 INFO: Processing pre-safe-import-module hook 'hook-importlib_metadata.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+18782 INFO: SetuptoolsInfo: initializing cached setuptools info...
+20226 INFO: Setuptools: 'importlib_metadata' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.importlib_metadata'!
+20235 INFO: Processing standard module hook 'hook-setuptools.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\PyInstaller\\hooks'
+20257 INFO: Processing pre-safe-import-module hook 'hook-distutils.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+20329 INFO: Processing pre-safe-import-module hook 'hook-jaraco.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+20330 INFO: Setuptools: 'jaraco' appears to be a full setuptools-vendored copy - creating alias to 'setuptools._vendor.jaraco'!
+20348 INFO: Processing pre-safe-import-module hook 'hook-more_itertools.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+20350 INFO: Setuptools: 'more_itertools' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.more_itertools'!
+20543 INFO: Processing standard module hook 'hook-_osx_support.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\PyInstaller\\hooks'
+20551 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+20572 INFO: Processing pre-safe-import-module hook 'hook-packaging.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+20977 INFO: Processing standard module hook 'hook-setuptools._vendor.jaraco.text.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\PyInstaller\\hooks'
+20980 INFO: Processing pre-safe-import-module hook 'hook-importlib_resources.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+20995 INFO: Processing pre-safe-import-module hook 'hook-backports.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+20996 INFO: Setuptools: 'backports' appears to be a full setuptools-vendored copy - creating alias to 'setuptools._vendor.backports'!
+21952 INFO: Processing pre-safe-import-module hook 'hook-tomli.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+21953 INFO: Setuptools: 'tomli' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.tomli'!
+22928 INFO: Processing pre-safe-import-module hook 'hook-wheel.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+22929 INFO: Setuptools: 'wheel' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.wheel'!
+22995 INFO: Processing standard module hook 'hook-setuptools._vendor.importlib_metadata.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\PyInstaller\\hooks'
+23025 INFO: Processing pre-safe-import-module hook 'hook-zipp.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+23027 INFO: Setuptools: 'zipp' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.zipp'!
+23072 INFO: Processing standard module hook 'hook-win32ctypes.core.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\PyInstaller\\hooks'
+24628 INFO: Processing standard module hook 'hook-pycparser.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+25982 INFO: Processing module hooks (post-graph stage)...
+25982 WARNING: Hidden import "pycparser.lextab" not found!
+25983 WARNING: Hidden import "pycparser.yacctab" not found!
+26153 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\PyInstaller\\hooks'
+26163 INFO: Performing binary vs. data reclassification (145 entries)
+27270 INFO: Looking for ctypes DLLs
+27393 INFO: Analyzing run-time hooks ...
+27397 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+27401 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+27404 INFO: Including run-time hook 'pyi_rth_setuptools.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+27405 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+27408 INFO: Including run-time hook 'pyi_rth_cryptography_openssl.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks'
+27409 INFO: Including run-time hook 'pyi_rth__tkinter.py' from 'C:\\Users\\Khyle\\AppData\\Local\\Programs\\Python\\Python315\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+27425 INFO: Creating base_library.zip...
+27449 INFO: Looking for dynamic libraries
+28883 INFO: Extra DLL search directories (AddDllDirectory): []
+28883 INFO: Extra DLL search directories (PATH): []
+29694 INFO: Warnings written to C:\Users\Khyle\Documents\kirssh\build\KIRSSH\warn-KIRSSH.txt
+29768 INFO: Graph cross-reference written to C:\Users\Khyle\Documents\kirssh\build\KIRSSH\xref-KIRSSH.html
+29810 INFO: checking PYZ
+29810 INFO: Building PYZ because PYZ-00.toc is non existent
+29810 INFO: Building PYZ (ZlibArchive) C:\Users\Khyle\Documents\kirssh\build\KIRSSH\PYZ-00.pyz
+30231 INFO: Building PYZ (ZlibArchive) C:\Users\Khyle\Documents\kirssh\build\KIRSSH\PYZ-00.pyz completed successfully.
+30260 INFO: checking PKG
+30260 INFO: Building PKG because PKG-00.toc is non existent
+30260 INFO: Building PKG (CArchive) KIRSSH.pkg
+32540 INFO: Building PKG (CArchive) KIRSSH.pkg completed successfully.
+32544 INFO: Bootloader C:\Users\Khyle\AppData\Local\Programs\Python\Python315\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+32544 INFO: checking EXE
+32544 INFO: Building EXE because EXE-00.toc is non existent
+32544 INFO: Building EXE from EXE-00.toc
+32547 INFO: Copying bootloader EXE to C:\Users\Khyle\Documents\kirssh\dist\KIRSSH.exe
+32649 INFO: Copying icon to EXE
+32827 INFO: Copying version information to EXE
+32878 INFO: Copying 0 resources to EXE
+32878 INFO: Embedding manifest in EXE
+32937 INFO: Appending PKG archive to EXE
+33100 INFO: Fixing EXE headers
+33485 INFO: Building EXE from EXE-00.toc completed successfully.
+33491 INFO: Build complete! The results are available in: C:\Users\Khyle\Documents\kirssh\dist
